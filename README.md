@@ -2,9 +2,9 @@
 
 # 🚀 Justified image gallery component for React 🚀
 
-https://react-grid-gallery-images.pages.dev
-
 https://github.com/coding-to-music/react-grid-gallery-images
+
+https://coding-to-music.github.io/react-grid-gallery-images
 
 From / By Ben Howell https://github.com/benhowell/react-grid-gallery
 
