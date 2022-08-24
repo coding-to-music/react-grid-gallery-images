@@ -18,6 +18,7 @@
     "deploy:examples": "gh-pages -d ./examples/dist",
     "test": "jest",
     "deploy": "git add . && git commit -m Build && git push",
+    "deploy:vercel": "npm run deploy && vercel --prod",
     "test:unit": "jest --testPathIgnorePatterns=\\.e2e\\.test\\.js",
     "test:e2e": "jest --testPathPattern=\\.e2e\\.test\\.js"
   },
