@@ -17,7 +17,7 @@ https://benhowell.github.io/react-grid-gallery/#pre-selected-images
 ## Environment variables:
 
 ```java
-
+const isWatchMode = process.env.ROLLUP_WATCH;
 ```
 
 ## GitHub
