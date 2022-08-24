@@ -1,5 +1,5 @@
 {
-  "name": "react-grid-gallery",
+  "name": "react-grid-gallery-images",
   "version": "0.5.6",
   "description": "Justified gallery component for React.",
   "main": "dist/react-grid-gallery.cjs.js",
@@ -17,6 +17,7 @@
     "watch:examples": "rollup -c rollup.config.examples.js -w",
     "deploy:examples": "gh-pages -d ./examples/dist",
     "test": "jest",
+    "deploy": "git add . && git commit -m Build && git push",
     "test:unit": "jest --testPathIgnorePatterns=\\.e2e\\.test\\.js",
     "test:e2e": "jest --testPathPattern=\\.e2e\\.test\\.js"
   },
